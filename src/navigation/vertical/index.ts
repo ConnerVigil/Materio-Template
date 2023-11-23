@@ -62,6 +62,11 @@ const navigation = (): VerticalNavItemsType => {
       sectionTitle: 'User Interface'
     },
     {
+      title: 'Sample Dashboard',
+      icon: mdiViewDashboardOutline,
+      path: '/sample-dashboard'
+    },
+    {
       title: 'Typography',
       icon: FormatLetterCase,
       path: '/typography'

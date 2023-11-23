@@ -5,6 +5,12 @@ import { NavLink, NavSectionTitle, VerticalNavItemsType } from 'src/@core/layout
 // ** Custom Menu Components
 import VerticalNavLink from './VerticalNavLink'
 import VerticalNavSectionTitle from './VerticalNavSectionTitle'
+import { styled } from '@mui/material/styles'
+
+// const NoDecorationWrapper = styled('div')({
+//   textDecoration: 'none',
+//   color: 'red'
+// })
 
 interface Props {
   settings: Settings
